@@ -30,10 +30,37 @@ span .copyright {
 	font-size: 0.9em;
 	line-height: 1.6666em;
 }
+
+.section-outer {
+}
+.section-inner {
+	max-width: 100%;
+	margin: 0;
+	display: flex;
+	align-items: flex-end;
+	align-content: center;
+}
 // === / Common ===
 
 // === Header ===
+.section-header {
+	min-height: 75px;
 
+	background: gray;
+	&-logo {
+		border: 1px solid red;
+		&__img {
+			max-width: 300px;
+			height: auto;
+		}
+	}
+	&-nav {
+		border: 1px solid yellow;
+		display: flex;
+		&__link {
+		}
+	}
+}
 // === / Header ===
 
 // === Form ===
