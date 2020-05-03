@@ -1,0 +1,57 @@
+@import "normalize.scss";
+// === Mixins ===
+
+// === / Mixins ===
+
+// === Variables ===
+$main-font: "Lato", sans-serif;
+$main-font-color: #000;
+$main-font-size: 16px;
+$body-bgcolor: #eee;
+// === / Variables ===
+
+// === Common ===
+body {
+	background: $body-bgcolor;
+	color: $main-font-color;
+	font-family: $main-font;
+	font-size: $main-font-size;
+	line-height: 1.5em;
+}
+
+h2 {
+	font: bold 1.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+span .copyright {
+	color: #444;
+	font-size: 0.9em;
+	line-height: 1.6666em;
+}
+// === / Common ===
+
+// === Header ===
+
+// === / Header ===
+
+// === Form ===
+
+// === / Form ===
+
+// === Features ===
+
+// === / Features ===
+
+// === Video ===
+
+// === / Video ===
+
+// === Pricing ===
+
+// === / Pricing ===
+
+// === Footer ===
+
+// === / Footer ===
