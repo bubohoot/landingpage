@@ -7,60 +7,131 @@
 	<title>Original Trombones</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
-	<!-- Header -->
-	<section class="section-outer section-header">
-		<div class="section-inner">
+	<div class="page-wrapper">
+		<!-- Header -->
+		<section class="section-header">
 			<div class="section-header-logo">
 				<img class="section-header-logo__img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
 					alt="original trombones">
 			</div>
 			<nav class="section-header-nav">
-				<div class="section-header-nav__link"><a href="#features">Features</a></div>
-				<div class="section-header-nav__link"><a href="#how-it-works">How It Works</a></div>
-				<div class="section-header-nav__link"><a href="#pricing">Pricing</a></div>
+				<ul>
+					<li class="section-header-nav__link"><a href="#features">Features</a></li>
+					<li class="section-header-nav__link"><a href="#how-it-works">How It Works</a></li>
+					<li class="section-header-nav__link"><a href="#pricing">Pricing</a></li>
+				</ul>
 			</nav>
+		</section>
+		<!-- / Header -->
+		<div class="container"></div>
+		<!-- Form -->
+		<section class="section-outer section-form">
+			<h2 class="section-form__title">Handcrafted, home-made masterpieces</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input type="email" name="email" id="email" placeholder="Enter your email address" required>
+				<input id="submit" type="submit" value="Get Started" class="btn btn-email">
+			</form>
+		</section>
+		<!-- / Form -->
+		<div class="container">
+			<!-- Features -->
+			<section class="section-outer section-features">
+				<div class="section-inner">
+					<div class="section-features__image">
+						<i class="fa fa-3x fa-fire"></i>
+					</div>
+					<div class="section-features__text">
+						<h2>Premium Materials</h2>
+						<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+							your purchase.</p>
+					</div>
+				</div>
+				<div class="section-inner">
+					<div class="section-features__image">
+						<i class="fa fa-3x fa-truck"></i>
+					</div>
+					<div class="section-features__text">
+						<h2>Fast Shipping</h2>
+						<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+							returns if you are not satisfied.</p>
+					</div>
+				</div>
+				<div class="section-inner">
+					<div class="section-features__image">
+						<i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+					</div>
+					<div class="section-features__text">
+						<h2>Quality Assurance</h2>
+						<p>For every purchase you make, we will ensure there are no damages or faults and we will check and
+							test the pitch of your instrument.</p>
+					</div>
+				</div>
+			</section>
+			<!-- / Features -->
+			<!-- Video -->
+			<section class="section-outer section-video">
+				<div class="section-inner">
+					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?controls=0"
+						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+			</section>
+			<!-- / Video -->
+			<!-- Pricing -->
+			<section class="section-outer section-pricing">
+				<div class="section-inner">
+					<div class="section-pricing-cntr_grid">
+						<div class="section-pricing__title">TENOR TROMBONE</div>
+						<h2 class="section-pricing__price">$600</h2>
+						<ul>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum dolor.</li>
+							<li>Lorem ipsum.</li>
+						</ul>
+						<button class="btn btn-pricing">select</button>
+					</div>
+					<div class="section-pricing-cntr_grid">
+						<div class="section-pricing__title">BASS TROMBONE</div>
+						<h2 class="section-pricing__price">$900</h2>
+						<ul>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum dolor.</li>
+							<li>Lorem ipsum.</li>
+						</ul>
+						<button class="btn btn-pricing">select</button>
+					</div>
+					<div class="section-pricing-cntr_grid">
+						<div class="section-pricing__title">VALVE TROMBONE</div>
+						<h2 class="section-pricing__price">$1200</h2>
+						<ul>
+							<li>Plays similar to a Trumpet</li>
+							<li>Great for Jazz Bands</li>
+							<li>Lorem ipsum dolor.</li>
+							<li>Lorem ipsum.</li>
+						</ul>
+						<button class="btn btn-pricing">select</button>
+					</div>
+				</div>
+			</section>
+			<!-- / Pricing -->
+			<!-- Footer -->
+			<section class="section-outer section-footer">
+				<ul>
+					<li><a class="section-footer-links" href="#Privacy">Privacy</a></li>
+					<li><a class="section-footer-links" href="#Terms">Terms</a></li>
+					<li><a class="section-footer-links" href="#Contact">Contact</a></li>
+				</ul>
+				<span class="section-footer-copyright">Copyright 2016, Original Trombones</span>
+			</section>
+			<!-- / Footer -->
 		</div>
-	</section>
-	<!-- / Header -->
-	<!-- Form -->
-	<section class="section-outer section-form">
-		<div class="section-inner">
-			section-form
-		</div>
-	</section>
-	<!-- / Form -->
-	<!-- Features -->
-	<section class="section-outer section-features">
-		<div class="section-inner">
-			section-features
-		</div>
-	</section>
-	<!-- / Features -->
-	<!-- Video -->
-	<section class="section-outer section-video">
-		<div class="section-inner">
-			section-video
-		</div>
-	</section>
-	<!-- / Video -->
-	<!-- Pricing -->
-	<section class="section-outer section-pricing">
-		<div class="section-inner">
-			section-pricing
-		</div>
-	</section>
-	<!-- / Pricing -->
-	<!-- Footer -->
-	<section class="section-outer section-footer">
-		<div class="section-inner">
-			section-footer
-		</div>
-	</section>
-	<!-- / Footer -->
-
+	</div>
 </body>
 
 
